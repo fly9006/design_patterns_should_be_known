@@ -1,3 +1,14 @@
+### 简单工厂模式
+
+用一个单独的类负责创造类的实例，也就是工厂。
+
+
+
+![UML类图](https://upload-images.jianshu.io/upload_images/14073259-97d20afdf3a0ab8c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -100,3 +111,6 @@ if __name__ == "__main__":
     operator.pa = float(pa)
     operator.pb = float(pb)
     print("result: ", operator.get_result())
+
+```
+
